@@ -1,0 +1,33 @@
+.app__about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 2.7rem;
+  h2 {
+    margin: 60px 0 20px 0;
+  }
+  @media screen and (max-width: 500px) {
+    padding-left: 0rem;
+  }
+}
+
+.app__profile {
+  max-width: 900px;
+  padding: 0 5vw;
+  text-align: center;
+  line-height: 2;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 40px;
+  }
+  @media screen and (max-width: 850px) {
+    max-width: 600px;
+    padding: 0 1vw;
+  }
+  @media screen and (max-width: 350px) {
+    max-width: 300px;
+    padding: 0 1vw;
+  }
+}
